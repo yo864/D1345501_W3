@@ -1,0 +1,6 @@
+l=int(input('輸入矩形的長:'))
+w=int(input('輸入矩形的寬:'))
+area = int(l*w)
+ans = int((l+w)*2)
+print('面積:',area)
+print('周長:',ans)
