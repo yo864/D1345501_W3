@@ -1,0 +1,7 @@
+i = int(input('請輸入一個五位數:'))
+n = int(i//10000)
+j = int(i//1000%10)
+k = int(i//100%10)
+l = int(i//10%10)
+m = int(i%10)
+print('結果:',n,j,k,l,m)
